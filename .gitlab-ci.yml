@@ -8,4 +8,4 @@ release:
     - npm ci
     - npm run semantic-release || npx semantic-release
   only:
-    - main
+    - master
