@@ -1,0 +1,11 @@
+stages:
+  - release
+
+release:
+  stage: release
+  image: node:20
+  script:
+    - npm ci
+    - npm run semantic-release || npx semantic-release
+  only:
+    - main
