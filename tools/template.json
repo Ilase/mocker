@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "age": "number",
+  "isActive": "boolean",
+  "tags": ["string"],
+  "address": {
+    "street": "string",
+    "city": "string",
+    "zip": "number"
+  }
+}
