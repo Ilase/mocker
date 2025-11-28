@@ -3,7 +3,7 @@ stages:
 
 release:
   stage: release
-  image: node:23.1.11
+  image: node:24.11.1
   script:
     - npm ci
     - npm run semantic-release || npx semantic-release
